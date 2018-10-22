@@ -105,7 +105,7 @@ class TestCase(unittest.TestCase):
         mock = Mock()
         mock.method()
         mock.attribute.method()
-        self.assertEqual(mock.method_calls, [call.method(), call.attribute.method])
+        self.assertEqual(mock.method_calls, [call.method, call.attribute.method])
 
     def test_patch_1(self):
         with patch.object(main.Production, 'deploy', return_value=False):
