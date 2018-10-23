@@ -12,11 +12,7 @@ def strange_string_func(str):
 
 # 1
 
-@pytest.fixture(scope="function", params=[
-("abcdefg", "abcdefg?"),
-("abc", "abc!"),
-("abcde", "abcde.")
-])
+@pytest.fixture(scope="function", params=[("abcdefg", "abcdefg?"), ("abc", "abc!"), ("abcde", "abcde.")])
 def param_test(request):
     return request.param
     
