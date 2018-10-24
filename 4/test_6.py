@@ -19,7 +19,7 @@ def test_skipped_for_not_win64_systems():
 def test_with_custom_mark():
     """
     Execute tests marked with 'custom_mark':
-    `pytest -s test_6.py -m "custom_mark"`
+    `pytest test_6.py -m "custom_mark"`
     """
     print("test_with_custom_mark")
     assert True
