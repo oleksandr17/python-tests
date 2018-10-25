@@ -1,4 +1,5 @@
 class Calculator:
 
-    def plus(self, a, b):
+    @staticmethod
+    def plus(a, b):
         return a+b
