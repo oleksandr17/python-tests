@@ -9,3 +9,4 @@ The following sources were used:
 3. Unit tests, mocks - https://docs.python.org/3/library/unittest.mock.html
 4. Pytest - https://habr.com/post/269759/
 5. Tox - https://tox.readthedocs.io/en/latest/
+6. Tox - https://blog.ionelmc.ro/2015/04/14/tox-tricks-and-patterns/
